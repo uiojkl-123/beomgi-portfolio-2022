@@ -1,0 +1,89 @@
+.projects {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    background: var(--background);
+
+    .container {
+
+        height: 170vh;
+
+        --opacity: 0;
+        background: var(--radial-background);
+        opacity: var(--opacity);
+
+        transition: opacity 0.4s ease-in-out;
+
+        .light {
+            position: absolute;
+            height: 100%;
+            top: 300px;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .content {
+            position: relative;
+            top: 60%;
+            max-width: 800px;
+            margin: auto;
+            padding: 16px;
+
+            .helloWorld {
+                background: linear-gradient(180deg, #FFFFFF 46.67%, #6A6A6A 120%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                position: relative;
+                font-family: monospace;
+                filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.5));
+                font-size: calc(2vw + 1.5rem);
+                font-weight: 700;
+
+                &::before {
+                    content: "'";
+                    background: var(--primary-color);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+
+                &::after {
+                    content: "'";
+                    background: var(--primary-color);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+
+            .projectList {
+                display: flex;
+                flex-direction: column;
+                margin-top: 32px;
+                position: relative;
+                gap: 16px;
+                max-width: 640px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0px 16px;
+            }
+
+            .projectContent {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-top: 32px;
+                position: relative;
+                gap: 16px;
+                max-width: 640px;
+                box-shadow: 0px 10px 6px #00000099;
+                height: fit-content;
+                
+            }
+        }
+    }
+}

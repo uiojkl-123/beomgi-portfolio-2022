@@ -1,0 +1,14 @@
+.followingComponent {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    left: var(--x);
+    top: var(--y);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: var(--primary-color);
+    z-index: 4;
+    opacity: var(--opacity);
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none;
+}

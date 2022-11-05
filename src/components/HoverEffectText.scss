@@ -1,0 +1,14 @@
+.hoverEffectText {
+    color: var(--text-black);
+    transition: color 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hovering {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.space{
+    width: 6px;
+}
