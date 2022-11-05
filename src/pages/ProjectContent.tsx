@@ -24,11 +24,11 @@ export const ProjectContent: React.FC<ProjectContentProps> = (props) => {
                 <p>2020.07 ~ 2020.10, 2021.01 ~ 2021.03</p>
                 <h2>개발환경</h2>
                 <div className="used row">
-                    <img src='react.png' alt="react" />
-                    <img src='ts.png' alt="ts" />
-                    <img src='firebase.png' alt="firebase" />
-                    <img src='ionic.png' alt="ionic" />
-                    <img src='sass.png' alt="sass" />
+                    <img src='React.png' alt="react" />
+                    <img src='Ts.png' alt="ts" />
+                    <img src='Firebase.png' alt="firebase" />
+                    <img src='Ionic.png' alt="ionic" />
+                    <img src='Sass.png' alt="sass" />
                 </div>
                 <h2>주요기능</h2>
                 <ul>
@@ -91,12 +91,12 @@ export const ProjectContent: React.FC<ProjectContentProps> = (props) => {
                 <p>2명</p>
                 <h2>개발 환경</h2>
                 <div className="used row">
-                    <img src='react.png' alt="react" />
-                    <img src='ts.png' alt="ts" />
-                    <img src='firebase.png' alt="firebase" />
-                    <img src='sass.png' alt="sass" />
-                    <img src='ionic.png' alt="ionic" />
-                    <img src='zustand.png' alt="zustand" />
+                    <img src='React.png' alt="react" />
+                    <img src='Ts.png' alt="ts" />
+                    <img src='Firebase.png' alt="firebase" />
+                    <img src='Sass.png' alt="sass" />
+                    <img src='Ionic.png' alt="ionic" />
+                    <img src='Zustand.png' alt="zustand" />
                 </div>
                 <h2>프로젝트 참여도</h2>
                 <p>100%</p>
@@ -147,11 +147,11 @@ export const ProjectContent: React.FC<ProjectContentProps> = (props) => {
                 <p>1명</p>
                 <h2>개발 환경</h2>
                 <div className="used row">
-                    <img src='react.png' alt="react" />
-                    <img src='ts.png' alt="ts" />
-                    <img src='sass.png' alt="sass" />
-                    <img src='zustand.png' alt="zustand" />
-                    <img src='firebase.png' alt="firebase" />
+                    <img src='React.png' alt="react" />
+                    <img src='Ts.png' alt="ts" />
+                    <img src='Sass.png' alt="sass" />
+                    <img src='Zustand.png' alt="zustand" />
+                    <img src='Firebase.png' alt="firebase" />
                 </div>
                 <h2>프로젝트 참여도</h2>
                 <p>100%</p>
@@ -203,12 +203,12 @@ export const ProjectContent: React.FC<ProjectContentProps> = (props) => {
                 <p>1명</p>
                 <h2>개발 환경</h2>
                 <div className="used row">
-                    <img src='react.png' alt="react" />
-                    <img src='ts.png' alt="ts" />
-                    <img src='sass.png' alt="sass" />
-                    <img src='zustand.png' alt="zustand" />
-                    <img src='firebase.png' alt="firebase" />
-                    <img src='ionic.png' alt="ionic" />
+                    <img src='React.png' alt="react" />
+                    <img src='Ts.png' alt="ts" />
+                    <img src='Sass.png' alt="sass" />
+                    <img src='Zustand.png' alt="zustand" />
+                    <img src='Firebase.png' alt="firebase" />
+                    <img src='Ionic.png' alt="ionic" />
                 </div>
                 <h2>프로젝트 참여도</h2>
                 <p>100%</p>
