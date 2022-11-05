@@ -99,7 +99,7 @@ export const Home: React.FC<HomeProps> = (props) => {
                     <div className="infoWrapper">
                         <a href='https://github.com/uiojkl-123'>
                             <div className="github">
-                                <img src='intersect.png' />
+                                <img src='Intersect.png' />
                                 <div className="label">Github</div>
                             </div>
                         </a>

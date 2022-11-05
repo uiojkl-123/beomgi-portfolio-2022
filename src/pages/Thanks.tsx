@@ -52,7 +52,7 @@ export const Thanks: React.FC<ThanksProps> = (props) => {
                 <div className="content">
                     <div className="light" ref={lightRef}></div>
                     <div className="helloWorld">
-                        Thanks for reaing :)
+                        Thanks for reading :)
                     </div>
 
                     <div className="description" ref={descriptionRef}>
