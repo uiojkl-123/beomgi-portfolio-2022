@@ -108,7 +108,7 @@ export const ProjectContent: React.FC<ProjectContentProps> = (props) => {
                     <li>백엔드 개발</li>
                 </ul>
                 <h2>프로젝트 소개</h2>
-                <a href='https://dalant.co.kr'>
+                <a href='https://littlebuffett.kr'>
                     달란트 바로가기
                 </a>
 
